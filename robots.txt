@@ -1,0 +1,107 @@
+# robots.txt — 广州区链 Ledger 官方授权经销商
+# 允许所有主流搜索引擎及 AI 爬虫完整抓取
+
+User-agent: *
+Allow: /
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing / Microsoft
+User-agent: bingbot
+Allow: /
+
+User-agent: adidxbot
+Allow: /
+
+# 百度
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider-image
+Allow: /
+
+User-agent: Baiduspider-video
+Allow: /
+
+User-agent: Baiduspider-news
+Allow: /
+
+# 360 搜索
+User-agent: 360Spider
+Allow: /
+
+# 搜狗
+User-agent: Sogou web spider
+Allow: /
+
+User-agent: Sogou inst spider
+Allow: /
+
+# 神马搜索 (移动)
+User-agent: YisouSpider
+Allow: /
+
+# 头条 / 字节跳动 (今日头条 AI 收录)
+User-agent: Bytespider
+Allow: /
+
+# 微信搜一搜
+User-agent: wechatbot
+Allow: /
+
+# OpenAI GPTBot
+User-agent: GPTBot
+Allow: /
+
+# OpenAI ChatGPT-User (browsing)
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic Claude
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Google Bard / Gemini
+User-agent: Google-Extended
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Common Crawl (AI 训练语料来源)
+User-agent: CCBot
+Allow: /
+
+# Baidu AI (文心一言)
+User-agent: baidubcr
+Allow: /
+
+# 阿里 AI 爬虫 (通义千问)
+User-agent: Alibaba-AliBot
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+
+# Yandex
+User-agent: YandexBot
+Allow: /
+
+# Sitemap 声明（必须）
+Sitemap: https://www.ledger-gz.com/sitemap.xml
